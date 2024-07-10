@@ -1,8 +1,11 @@
-function App() {
+import { Post } from "./Post"
+
+export function App() {
 
   return (
-    <h1>Starting my Portfolio</h1>
+    <div>
+      <h1>My Portfolio</h1>
+      <Post />
+    </div>
   )
 }
-
-export default App
