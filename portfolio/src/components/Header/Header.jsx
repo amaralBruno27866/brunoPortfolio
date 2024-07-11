@@ -2,27 +2,25 @@ import styles from './Header.module.css';
 import logo from '../../../img/pets.png';
 
 export function Header(){
-    return(
-        <div className={styles.header}>
+    return (
+        <header className={styles.header}>
             <nav>
-                <div>
+                <div className={styles.logo}>
                     <img src={logo} alt="pets logo" />
                 </div>
-                <div>
+                <div className={styles.name}>
                     <p>Bruno&apos;s Portfolio</p>
                 </div>
-                <div>
+                <div className={styles.menu}>
                     <ul>
                         <li>Home</li>
-                        <li>Services</li>
-                        <li>Products</li>
-                        <li>Contact</li>
+                        <li>Projects</li>
+                        <li>About me</li>
+                        <li>Extra</li>
                     </ul>
-                </div>
-                <div>
                     <button>Contract Me</button>
                 </div>
             </nav>
-        </div>
+        </header>
     );
 }

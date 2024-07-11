@@ -1,5 +1,6 @@
 :root{
     --white: #FFFFFF;
+    --black:#000000;
     --emerald-950: #022c22;
     --emerald-900: #064e3b;
     --emerald-800: #065f46;
@@ -42,8 +43,8 @@
 }
 
 body{
-    background: var(--cyan-950);
-    color: var(--emerald-100);
+    background: var(--black);
+    color: var(--white);
     -webkit-font-smoothing: antialiased;
 }
 
