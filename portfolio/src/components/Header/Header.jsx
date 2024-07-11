@@ -9,7 +9,7 @@ export function Header(){
                     <img src={logo} alt="pets logo" />
                 </div>
                 <div>
-                    <p>Bruno's Portfolio</p>
+                    <p>Bruno&apos;s Portfolio</p>
                 </div>
                 <div>
                     <ul>
@@ -20,7 +20,7 @@ export function Header(){
                     </ul>
                 </div>
                 <div>
-                    <button>test</button>
+                    <button>Contract Me</button>
                 </div>
             </nav>
         </div>
