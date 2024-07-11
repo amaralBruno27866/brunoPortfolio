@@ -1,4 +1,33 @@
 .header{
-    background: #000000;
-    color: #ffffff;
+    background: var(--cyan-800);
+    color: var(--cyan-50);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.header img{
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+.header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.header p{
+    margin: 1rem;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 1rem;
+}
+
+.header ul li{
+    margin: 0 1rem;
 }
