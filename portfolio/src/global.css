@@ -1,0 +1,54 @@
+:root{
+    --white: #FFFFFF;
+    --emerald-950: #022c22;
+    --emerald-900: #064e3b;
+    --emerald-800: #065f46;
+    --emerald-700: #047857;
+    --emerald-600: #059669;
+    --emerald-500: #10b981;
+    --emerald-400: #34d399;
+    --emerald-300: #6ee7b7;
+    --emerald-200: #a7f3d0;
+    --emerald-100: #d1fae5;
+    --emerald-50: #ecfdf5;
+    --violet-950: #2e1065;
+    --violet-900: #4c1d95;
+    --violet-800: #5b21b6;
+    --violet-700: #6d28d9;
+    --violet-600: #7c3aed;
+    --violet-500: #7c3aed;
+    --violet-400: #a78bfa;
+    --violet-300: #c4b5fd;
+    --violet-200: #ddd6fe;
+    --violet-100: #ede9fe;
+    --violet-50: #f5f3ff;
+    --cyan-950: #083344;
+    --cyan-900: #164e63;
+    --cyan-800: #155e75;
+    --cyan-700: #0e7490;
+    --cyan-600: #0891b2;
+    --cyan-500: #06b6d4;
+    --cyan-400: #22d3ee;
+    --cyan-300: #67e8f9;
+    --cyan-200: #a5f3fc;
+    --cyan-100: #e0f2fe;
+    --cyan-50: #ecfeff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--cyan-950);
+    color: var(--emerald-100);
+    -webkit-font-smoothing: antialiased;
+}
+
+body , input , textarea , button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
