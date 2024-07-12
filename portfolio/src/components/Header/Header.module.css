@@ -1,12 +1,14 @@
+/* Header.module.css */
 .header {
-    background: var(--cyan-950);
-    color: var(--cyan-50);
+    background: var(--gray-950);
+    color: var(--gray-100);
     padding: 1rem 0;
+    text-align: center; /* Centraliza o conteúdo do header */
 }
 
 .header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Centraliza os itens no nav */
     align-items: center;
     margin: 0 2rem;
 }
@@ -14,11 +16,12 @@
 .logo {
     display: flex;
     align-items: center;
+    margin-right: 1rem; /* Adiciona espaço entre o logo e o texto */
 }
 
 .logo img {
     height: 2.5rem;
-    margin-right: o.5rem;
+    margin-right: 0.5rem;
 }
 
 .name {
@@ -27,28 +30,15 @@
 }
 
 .name p {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--cyan-100);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(90deg, var(--cyan-200), var(--cyan-50));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0.5rem;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.1);
-    display: inline-block;
-    transition: transform 0.3s ease;
+    font-weight: 700;
+    margin: 0 1rem; /* Espaçamento entre o texto e outros itens */
 }
 
 .menu {
     display: flex;
     align-items: center;
+    margin-left: 1rem; /* Adiciona espaço entre o menu e o texto */
 }
 
 .menu ul {
@@ -56,10 +46,11 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 1.25rem;
 }
 
 .menu ul li {
-    margin: 0 1rem;
+    margin: 0 2rem;
     position: relative;
 }
 
@@ -70,7 +61,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--cyan-100);
+    background-color: var(--lime-400);
     transition: width 0.3s ease-in-out;
 }
 
@@ -81,14 +72,15 @@
 .menu button {
     margin-left: 1rem;
     padding: 0.5rem 1rem;
+    font-size: 1.25rem;
     border: none;
     border-radius: 8px;
-    background-color: var(--violet-900);
-    color: var(--cyan-100);
+    background: var(--orange-700);
+    color: var(--white);
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .menu button:hover {
-    background-color: var(--violet-700);
+    background-color: var(--orange-500);
 }
