@@ -11,8 +11,8 @@ export function Header(){
                 <div className={styles.menu}>
                     <ul>
                         <li>Home</li>
-                        <li>Projects</li>
                         <li>About me</li>
+                        <li>Projects</li>
                         <li>Certificates</li>
                     </ul>
                 </div>
