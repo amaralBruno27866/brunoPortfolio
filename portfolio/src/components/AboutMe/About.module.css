@@ -1,0 +1,6 @@
+.about{
+    background: var(--gray-700);
+    color: var(--white);
+    margin-top: 0;
+    padding: 2rem 0;
+}
