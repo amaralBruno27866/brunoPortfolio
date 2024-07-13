@@ -4,6 +4,12 @@
     color: var(--gray-100);
     padding: 1rem 0;
     text-align: center; /* Centraliza o conteúdo do header */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header nav {
@@ -14,6 +20,7 @@
 }
 
 .logo {
+    margin-left: 1rem;
     display: flex;
     align-items: center;
     margin-right: 1rem; /* Adiciona espaço entre o logo e o texto */
@@ -69,8 +76,8 @@
     width: 100%;
 }
 
-.menu button {
-    margin-left: 1rem;
+.button  button {
+    margin-right: 1rem;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     border: none;
@@ -79,8 +86,10 @@
     color: var(--white);
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
-.menu button:hover {
+.button button:hover {
     background-color: var(--orange-500);
 }
