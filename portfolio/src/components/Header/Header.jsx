@@ -1,15 +1,12 @@
 import styles from './Header.module.css';
-import logo from '../../../img/pets.png';
+import logo from '../../../img/MyLogo.png';
 
 export function Header(){
     return (
         <header className={styles.header}>
             <nav>
                 <div className={styles.logo}>
-                    <img src={logo} alt="pets logo" />
-                </div>
-                <div className={styles.name}>
-                    <p>Bruno&apos;s Portfolio</p>
+                    <img src={logo} alt="My Logo" />
                 </div>
                 <div className={styles.menu}>
                     <ul>
