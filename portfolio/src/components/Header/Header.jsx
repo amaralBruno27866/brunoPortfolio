@@ -12,13 +12,15 @@ export function Header(){
                     <ul>
                         <li>Home</li>
                         <li>About me</li>
+                        <li>Skills</li>
+                        <li>Education</li>
+                        <li>WorkExperience</li>
                         <li>Projects</li>
-                        <li>Certificates</li>
                     </ul>
                 </div>
             </nav>
             <div className={styles.button}>
-                <button>Contract Me</button>
+                <button>Contact me</button>
             </div>
         </header>
     );

@@ -1,5 +1,28 @@
 .about{
-    color: var(--white);
-    margin-top: 0;
-    padding: 2rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    border-bottom: solid 2px var(--green-300);
+}
+
+.about h1{
+    color: var(--lime-400);
+}
+
+.about img{
+    border: solid 2px var(--violet-600);
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 1rem;
 }

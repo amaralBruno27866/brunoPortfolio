@@ -18,6 +18,12 @@
     z-index: 1;
 }
 
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px var(--green-600);
+    z-index: -100;
+}
+
 .by2{
     position: absolute;
     top: 0;
@@ -53,7 +59,7 @@
 
 .content h1 span{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #000000;
+    -webkit-text-stroke: 1px var(--white);
 }
 
 .content p{
