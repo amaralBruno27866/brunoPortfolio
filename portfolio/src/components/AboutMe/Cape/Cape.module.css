@@ -1,0 +1,22 @@
+.cape{
+    background: var(--gray-900);
+    color: var(--gray-100);
+    max-width: 100%;
+    border-radius: 8px;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.img{
+    align-items: center;
+}
+
+.content{
+    text-align: justify;
+}
+
+.content h1{
+    color: var(--orange-500);
+    margin-bottom: 1rem;
+}
