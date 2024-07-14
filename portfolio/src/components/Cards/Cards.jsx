@@ -5,7 +5,7 @@ export function Cards(){
         <div className={styles.card}>
             <div className={styles.tech}>
                 <p>
-                    HTML CSS JavaScript React NodeJS MongoDB
+                    HTML CSS JavaScript React NodeJS
                 </p>
             </div>
             <div className={styles.img}>
@@ -15,6 +15,9 @@ export function Cards(){
                 <h4>subtitle</h4>
                 <h1>Title</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, adipisci tempore. Minus in neque illo itaque sint laudantium deleniti atque voluptates necessitatibus ratione, quaerat sapiente officiis dicta, id consequatur magni.</p>
+            </div>
+            <div className={styles.button}>
+                <button>Repository</button>
             </div>
         </div>
     )
