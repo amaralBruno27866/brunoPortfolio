@@ -6,10 +6,27 @@
     align-items: center;
     margin: 1rem;
     padding: 1rem;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+}
+
+.cape:hover{
+    background: var(--gray-800);
+
 }
 
 .img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.img img{
+    border: solid 5px var(--orange-500);
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
 }
 
 .content{

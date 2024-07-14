@@ -17,12 +17,10 @@
 }
 
 .about h1{
-    color: var(--lime-400);
+    color: var(--orange-500);
 }
 
 .about img{
-    border: solid 2px var(--violet-600);
-    border-radius: 8px;
-    max-width: 300px;
+    max-width: 21.875rem;
     margin: 1rem;
 }
