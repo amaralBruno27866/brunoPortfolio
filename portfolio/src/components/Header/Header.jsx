@@ -14,7 +14,7 @@ export function Header(){
                         <li>About me</li>
                         <li>Skills</li>
                         <li>Education</li>
-                        <li>WorkExperience</li>
+                        <li>Work Experience</li>
                         <li>Projects</li>
                     </ul>
                 </div>

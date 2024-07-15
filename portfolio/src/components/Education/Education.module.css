@@ -1,4 +1,4 @@
-.project{
+.education{
     position: absolute;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@
     position: relative;
     padding-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
     border-bottom: solid 2px var(--green-300);
