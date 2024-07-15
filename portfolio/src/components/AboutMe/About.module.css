@@ -17,8 +17,8 @@
 }
 
 .about h1{
-    color: var(--orange-500);
-    border-bottom: solid 2px var(--orange-500);
+    color: var(--white);
+    border-bottom: solid 2px var(--green-300);
 }
 
 .about img{

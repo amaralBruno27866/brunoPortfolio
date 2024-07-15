@@ -23,7 +23,7 @@
 }
 
 .img img{
-    border: solid 5px var(--orange-500);
+    border: solid 5px var(--green-300);
     border-radius: 8px;
     width: 100%;
     height: auto;
