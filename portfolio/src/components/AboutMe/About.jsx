@@ -10,6 +10,7 @@ export function About(){
                 <Cape/>
             </div>            
             <div>
+                <h1>Skills</h1>
                 <Chart/>
             </div>
         </div>
