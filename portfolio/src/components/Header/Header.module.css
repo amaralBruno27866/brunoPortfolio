@@ -61,6 +61,7 @@
     margin: 0 2rem;
     position: relative;
     cursor: pointer;
+    
 }
 
 .menu ul li::before {
@@ -76,6 +77,13 @@
 
 .menu ul li:hover::before {
     width: 100%;
+}
+
+.menu ul li a {
+    text-decoration: none; /* Removes the underline from links */
+    color: inherit; /* Ensures the link color matches the li or parent text color */
+    font-size: inherit; /* Inherits the font size from the li element */
+    display: block; /* Makes the link fill the entire li area, improving clickability */
 }
 
 .button  button {

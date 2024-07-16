@@ -10,18 +10,21 @@
     position: relative;
     padding-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
-    border-bottom: solid 2px var(--green-300);
+    color: var(--gray-100);
 }
 
 .about h1{
-    color: var(--white);
-    border-bottom: solid 2px var(--green-300);
+    border-bottom: 5px solid var(--green-300);
 }
 
-.about img{
-    max-width: 21.875rem;
-    margin: 1rem;
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.content{
+    color: var(--gray-100);
 }

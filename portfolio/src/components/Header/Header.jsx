@@ -5,17 +5,31 @@ export function Header(){
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
-                <img src={logo} alt="My Logo" />
+                <a href="#">
+                    <img src={logo} alt="My Logo" />
+                </a>
             </div>
             <nav>
                 <div className={styles.menu}>
                     <ul>
-                        <li>Home</li>
-                        <li>About me</li>
-                        <li>Skills</li>
-                        <li>Education</li>
-                        <li>Work Experience</li>
-                        <li>Projects</li>
+                        <li>
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#AboutMe">About me</a>
+                        </li>
+                        <li>
+                            <a href="#Skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#Education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#Work">Work Experience</a>
+                        </li>
+                        <li>
+                            <a href="#Projects">Projects</a>
+                        </li>
                     </ul>
                 </div>
             </nav>

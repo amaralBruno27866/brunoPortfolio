@@ -2,8 +2,11 @@ import styles from './Education.module.css';
 
 export function Education() {
     return(
-        <div className={styles.education}>
-            <h1>Education</h1>
-        </div>
+        <section id="Education" className={styles.education}>
+            <div>
+                <h1>Education</h1>
+            </div>
+        </section>
+        
     )
 }
