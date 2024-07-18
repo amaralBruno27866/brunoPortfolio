@@ -1,5 +1,5 @@
-import { Cape } from './Cape/Cape';
 import styels from './About.module.css';
+import { Banner } from './Banner/Banner';
 
 export function About(){
     return(
@@ -8,12 +8,9 @@ export function About(){
                 <h1>About me</h1>
             </div> 
             <div className={styels.container}>
-                <Cape/>
                 <div className={styels.content}>
-                    <h2>Mission</h2>
-                    <h2>Vison</h2>
-                    <h2>Values</h2>
-            </div> 
+                    <Banner/>
+                </div> 
             </div>          
         </section>
     )

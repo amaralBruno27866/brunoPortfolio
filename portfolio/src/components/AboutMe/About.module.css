@@ -17,6 +17,7 @@
 
 .about h1{
     border-bottom: 5px solid var(--green-300);
+    font-size: 3rem;
 }
 
 .container{

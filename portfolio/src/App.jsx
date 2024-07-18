@@ -12,16 +12,17 @@ import './global.css'
 
 export function App() {
   return (
-    <div>
-      <Header/>
-      <Main/>
-      <About/>
-      <Skills/>
-      <Education/>
-      <Work/>
-      <Project/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <section>
+      <Header />
+      <Main />
+      <About />
+      <Skills />
+      <Education />
+      <Work />
+      <Project />
+      <Contact />
+      <Footer />
+    </section>
+    
   )
 }
