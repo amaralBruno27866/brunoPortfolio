@@ -1,0 +1,106 @@
+/* Header.module.css */
+.header {
+    background: var(--gray-950);
+    color: var(--gray-100);
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.logo {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.logo img {
+    height: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.name p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 1rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+}
+
+.menu ul li {
+    margin: 0 2rem;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.menu ul li::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--lime-400);
+    transition: width 0.3s ease-in-out;
+}
+
+.menu ul li:hover::before {
+    width: 100%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    display: block;
+}
+
+.button  button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 8px;
+    background: var(--green-600);
+    color: var(--gray-950);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: var(--green-300);
+}
