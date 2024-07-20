@@ -20,12 +20,9 @@
     font-size: 3rem;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
 .content{
     color: var(--gray-100);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }

@@ -7,10 +7,10 @@ export function AboutMe(){
             <div>
                 <h1>About me</h1>
             </div>
-            <div className={styles.container}>
-                <div className={styles.content}>
-                    <Banner/>
-                </div>
+            <div className={styles.content}>
+                <Banner/>
+                <Banner/>
+                <Banner/>
             </div>
         </section>
     )
