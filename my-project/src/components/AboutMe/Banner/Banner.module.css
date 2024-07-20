@@ -11,7 +11,7 @@
 }
 
 .banner:hover{
-    transform: scale(1.01) translateY(-5px);
+    /* transform: scale(1.01) translateY(-5px); */
     background: var(--gray-900);
 }
 
@@ -25,16 +25,38 @@
     border-radius: 8px;
     margin-right: 1rem;
     cursor: pointer;
-    
+    transition: ease-in-out 0.5s;
+}
+
+.banner figure img:hover{
+    transform: scale(1.01) translateY(-5px);
 }
 
 .card_body{
     max-height: 20rem;
+    position: relative;
+}
+
+.card_body h2{
+    font-size: 1.5rem;
+    color: var(--orange-500);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card_body p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card_body button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
 }
 
 .button button{
-    margin-right: 1rem;
-    padding: 0.5rem 1rem;
     font-size: 1.25rem;
     border: none;
     border-radius: 8px;
