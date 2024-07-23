@@ -1,25 +1,29 @@
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
 import styles from './Banner.module.css';
 
 export function Banner(props){
     return(
-        <section>
-            <div className={styles.banner}>
-                <figure>
-                    {props.picture}
-                </figure>
-                <div className={styles.card_body}>
-                    <h2>{props.title}</h2>
-                    <p>
-                       {props.content}
-                    </p>
-                </div>
-                <div className={styles.footer}>
-                    <button> 
-                        Turn
-                    </button>
-                </div>
+        <div className={styles.banner}>
+            <div className={styles.picture}>
+                {props.picture}
             </div>
-        </section>
+            <div className={styles.card_body}>
+                <h2>{props.title}</h2>
+                <p>
+                    {props.content}
+                </p>
+            </div>
+            <div className={styles.footer}>
+                <button> 
+                    Turn
+                </button>
+            </div>
+        </div>
     )
 }
+
+Banner.propTypes = {
+    picture: PropTypes.element.isRequired,
+    title: PropTypes.string.isRequired,
+    content: PropTypes.string.isRequired
+};

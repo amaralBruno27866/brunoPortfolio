@@ -4,10 +4,12 @@ import { AboutMe } from './components/AboutMe/AboutMe';
 
 import './global.css';
 
+import styles from './App.module.css';
+
 export function App() {
 
   return (
-    <div>
+    <div className={styles.main}>
       <Header/>
       <Home/>
       <AboutMe/>
