@@ -1,10 +1,10 @@
 import styles from './Home.module.css';
-import programmer from './coding.png';
-import video from './bk_1.mp4';
+import programmer from '../img/coding.png';
+import video from '../video/bk_1.mp4';
 
 export function Home(){
     return(
-        <section>
+        <section id="Home">
             <div className={styles.Main}>
                 <video 
                     className={styles.video} 
