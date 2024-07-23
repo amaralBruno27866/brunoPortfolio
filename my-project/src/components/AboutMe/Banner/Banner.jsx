@@ -15,7 +15,7 @@ export function Banner(props){
             </div>
             <div className={styles.footer}>
                 <button> 
-                    Turn
+                    Turn the card for see a video
                 </button>
             </div>
         </div>
