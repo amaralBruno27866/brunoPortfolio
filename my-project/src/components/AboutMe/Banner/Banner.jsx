@@ -14,7 +14,7 @@ export function Banner(props){
                        {props.content}
                     </p>
                 </div>
-                <div className={styles.button}>
+                <div className={styles.footer}>
                     <button> 
                         Turn
                     </button>

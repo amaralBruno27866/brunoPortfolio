@@ -4,6 +4,7 @@
     background: var(--lime-400);
     border-radius: 10px;
     color: var(--black);
+    margin-bottom: -3px;
 }
 
 .banner figure img{
@@ -32,10 +33,25 @@
     font-weight: 500;
 }
 
-.button {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
     grid-column: 1 / -1;
+    background: var(--gray-950);
+    color: var(--gay-100);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: -3px;
+    cursor: pointer;
+}
+
+.footer button{
+    background: none;
+    color: var(--gray-100);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer; 
 }
