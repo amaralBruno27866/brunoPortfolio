@@ -1,7 +1,7 @@
 import styles from './AboutMe.module.css';
 import {Banner} from './Banner/Banner';
-import developer from '../img/developer.png';
 import beagle from '../img/BellBell.png'
+import programmer from '../img/programer.png'
 
 export function AboutMe(){
     return(
@@ -11,7 +11,7 @@ export function AboutMe(){
             </div>
             <div className={styles.container}>
                 <div className={styles.developer}>
-                    <img src={developer} alt="" />
+                    <img src={programmer} alt="A man coding" />
                 </div>
                 <div className={styles.content}>
                     <Banner
