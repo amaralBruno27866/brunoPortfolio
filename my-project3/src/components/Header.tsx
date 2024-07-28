@@ -3,9 +3,9 @@ import logo from "../assets/MyLogo.svg";
 
 export function Header() {
   return (
-    <section className={styles.main_container}>
+    <section id="Header" className={styles.header_container}>
       <div>
-        <a href="#Home">
+        <a href="#Header">
           <img src={logo} alt="Personal logo" />
         </a>
       </div>
