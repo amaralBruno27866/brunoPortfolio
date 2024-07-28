@@ -1,10 +1,14 @@
 import "./global.css";
 import styles from "./App.module.css";
+import { Header } from "./components/Header";
 
 export function App() {
   return (
-    <div className={styles.wrapper}>
-      <h1>teste</h1>
-    </div>
+    <section>
+      <Header />
+      <body className={styles.wrapper}>
+        <h1>Body</h1>
+      </body>
+    </section>
   );
 }
