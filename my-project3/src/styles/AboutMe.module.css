@@ -1,0 +1,14 @@
+.about_content {
+  width: 90rem;
+  height: 40rem;
+  color: var(--gray-100);
+  background-color: var(--gray-800);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.about_content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 5px solid var(--green-500);
+}

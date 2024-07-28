@@ -2,6 +2,7 @@ import "./global.css";
 import styles from "./App.module.css";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
+import { AboutMe } from "./components/AboutMe";
 
 export function App() {
   return (
@@ -9,7 +10,7 @@ export function App() {
       <Header />
       <Home />
       <body className={styles.wrapper}>
-        <h1>Body</h1>
+        <AboutMe />
       </body>
     </section>
   );
