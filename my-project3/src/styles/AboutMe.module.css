@@ -19,3 +19,22 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.about_containerAll {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_containerOther {
+  width: 50%;
+}
+
+.about_containerCard {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
