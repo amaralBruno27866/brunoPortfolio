@@ -25,14 +25,20 @@
   gap: 1rem;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
 }
 
 .about_containerOther {
   width: 50%;
 }
 
+.about_containerOther img {
+  height: 30rem;
+}
+
 .about_containerCard {
   width: 50%;
+  height: 100%;
   display: flex;
   gap: 1rem;
   align-items: center;

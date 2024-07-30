@@ -1,19 +1,19 @@
 import styles from "../styles/Card.module.css";
 import { ArrowUDownRight } from "phosphor-react";
+import photo from "../assets/Pankeka.png";
 
-interface CardProps {
-  picture: JSX.Element;
-  title: string;
-  content: string;
-}
-
-export function Card(props: CardProps): JSX.Element {
+export function Card(): JSX.Element {
   return (
     <section className={styles.card_content}>
-      {props.picture}
+      <img src={photo} alt="" />
       <div className={styles.container}>
-        <h2>{props.title}</h2>
-        <p>{props.content}</p>
+        <h2>Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odit
+          corrupti praesentium. Fugit, repellat id? Praesentium, blanditiis
+          soluta, dolore sapiente odio alias aliquam corrupti nemo aliquid nobis
+          reiciendis ipsum repellendus.
+        </p>
       </div>
       <div className={styles.footer}>
         <button id="turn">
