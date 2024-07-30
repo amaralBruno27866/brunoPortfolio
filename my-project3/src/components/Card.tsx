@@ -1,19 +1,19 @@
 import styles from "../styles/Card.module.css";
-import pankeka from "../assets/Pankeka.png";
 import { ArrowUDownRight } from "phosphor-react";
 
-export function Card() {
+interface CardProps {
+  picture: JSX.Element;
+  title: string;
+  content: string;
+}
+
+export function Card(props: CardProps): JSX.Element {
   return (
     <section className={styles.card_content}>
-      <img src={pankeka} alt="Pankeka beagle" />
+      {props.picture}
       <div className={styles.container}>
-        <h2>Pankeka, the lemon beagle</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi eius
-          perspiciatis voluptates, aspernatur id cumque nemo minima accusantium
-          aut, molestiae dolorum impedit atque? Delectus eveniet officiis
-          voluptates ducimus deserunt ab!
-        </p>
+        <h2>{props.title}</h2>
+        <p>{props.content}</p>
       </div>
       <div className={styles.footer}>
         <button id="turn">
