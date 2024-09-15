@@ -4,52 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Bruno's Portfolio</title>
 </head>
 <body>
-    <!-- NavBar -->
-    <div class="navbar">
-        <nav>
-            <div class="nav-logo">
-                <a href="">
-                    <img src="" alt="">
-                </a>
-            </div>
-
-            <ul class="nav-links">
-                <li><a href="">Home</a></li>
-                <li><a href="">About me</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Education</a></li>
-                <li><a href="">Work Experience</a></li>
-            </ul>
-
-            <button class="contact-me">
-                Hire me
-            </button>
-        </nav>
-    </div>
-
-    <!-- Header -->
-    <div class="header-container">
-        <header class="home">
-            <div class="home-content">
-                <span class="blur"></span>
-                <span class="blur"></span>
-                <h4>CREATE YOU SITE LIKE A PRO</h4>
-                <h1>Hi, I'm <span>Bruno</span>, Web Developer</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Vero inventore, molestias praesentium ipsum quia 
-                    necessitatibus aut alias ullam optio tempora sequi enim 
-                    dolor sapiente velit? Quas odio blanditiis obcaecati eius.
-                </p>
-                <button class="btn">Get Started</button>
-            </div>
-            <div class="image">
-                <img src="">
-            </div>
-        </header>
-    </div>
+    <header>
+        <div class="navbar">
+          <div class="logo"><a href="#">Web Dev Creative</a></div>
+          <ul class="links">
+            <li><a href="hero">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+          <a href="#" class="action_btn">Get Started</a>
+          <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+  
+        <div class="dropdown_menu">
+          <li><a href="hero">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="services">Services</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="#" class="action_btn">Get Started</a></li>
+        </div>
+      </header>
+  
+      <main>
+        <section id="hero">
+          <h1>Welcome</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, rem
+            amet velit asperiores tempore est!<br />
+            Consequuntur ea aperiam nostrum veniam, incidunt, voluptate quibusdam
+            fugiat voluptates debitis a fugit, voluptatibus aut?
+          </p>
+        </section>
+      </main>
+  
+      <script>
+        const toggleBtn = document.querySelector(".toggle_btn");
+        const toggleBtnIcon = document.querySelector(".toggle_btn i");
+        const dropDownMenu = document.querySelector(".dropdown_menu");
+  
+        toggleBtn.addEventListener("click", () => {
+          dropDownMenu.classList.toggle("open");
+          toggleBtnIcon.classList = dropDownMenu.classList.contains("open")
+            ? "fa-solid fa-xmark"
+            : "fa-solid fa-bars";
+        });
+      </script>
 </body>
 </html>
